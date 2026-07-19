@@ -1,0 +1,8 @@
+/target/debug/
+/target/release/
+/Cargo.lock
+/target/
+*.rs.bk
+*.log
+node_modules/
+.DS_Store

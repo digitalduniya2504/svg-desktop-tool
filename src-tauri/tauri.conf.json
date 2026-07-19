@@ -1,0 +1,40 @@
+{
+  "build": {
+    "distDir": "../src",
+    "devPath": "../src",
+    "beforeBuildCommand": "",
+    "beforeDevCommand": ""
+  },
+  "package": {
+    "productName": "SVG Desktop Tool",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "hiddenTitleBar": true,
+        "titleBarStyle": "transparent",
+        "fullscreen": false,
+        "resizable": true,
+        "title": "SVG Desktop Tool"
+      }
+    ],
+    "allowlist": {
+      "all": false,
+      "fs": {
+        "all": true,
+        "readFile": true,
+        "writeFile": true,
+        "copyFile": true,
+        "removeFile": true
+      },
+      "dialog": {
+        "open": true,
+        "save": true
+      },
+      "process": {
+        "all": true
+      }
+    }
+  }
+}
