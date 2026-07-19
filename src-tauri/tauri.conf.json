@@ -10,14 +10,13 @@
     "version": "0.1.0"
   },
   "tauri": {
-    "windows": [
+        "windows": [
       {
-        "hiddenTitleBar": true,
-        "titleBarStyle": "transparent",
+        "title": "SVG Desktop Tool",
         "fullscreen": false,
-        "resizable": true,
-        "title": "SVG Desktop Tool"
+        "resizable": true
       }
+    ],
     ],
     "allowlist": {
       "all": false,
